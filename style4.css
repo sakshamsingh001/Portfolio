@@ -1,0 +1,59 @@
+h3
+{
+    margin: 0px;
+}
+#heading
+{
+    width: 213px;
+    height: 40px;
+    margin-left: 50%;   
+    margin-top: 2%; 
+    text-align: center;
+}
+#heading2
+{
+    width: 570px;
+    height: 70px;
+    margin-left: 42%;
+display: flex;
+text-align: center;
+}
+#outer-box
+{
+    width: 1000px;
+    height: 494px;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.inner-box
+{
+    width: 445px;
+    height: 494px;
+    
+}
+.work-name
+{
+    margin-top: 3%;
+}
+.para
+{
+    margin-top: 3%;
+}
+.inner-box button{
+    margin-top: 3%;
+    background-color: #3F8E00;
+    border-radius: 10%;
+}
+.inner-box2
+{
+    width: 445px;
+    height: 494px;
+    margin-left: 2%;
+    
+}
+.inner-box2 button{
+    margin-top: 3%;
+    background-color: #3F8E00;
+    border-radius: 10%;
+}
