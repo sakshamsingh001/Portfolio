@@ -26,6 +26,11 @@ body{
     text-decoration: none;
     color: grey;
 }
+a:hover
+{
+    color: aliceblue;
+    border-radius: 10%;
+}
 #links{
     margin-left: 100px;
     width: 107px;
@@ -81,4 +86,19 @@ height: 154px;
     width: 350px;
     height: 350px;
     border-radius: 50%;
+}
+#work
+{
+    width: 93px;
+    height: 18px;
+    margin-left: 180px;
+}
+#footer-outerbox
+{
+    width: 920px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 20px;
 }
