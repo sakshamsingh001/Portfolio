@@ -1,24 +1,32 @@
 body{
     background-color: black;
    margin-left: 20%;
+   height: 100%;
+   width: 100%;
 }
 #header-part
 {
-    margin-top: -10px;
-    width: 1100px;
+    position: relative;
+   top: -10px;;
+    /* width: 1100px; */
+    width: 70%;
     height: 70px;
-    margin-left: 90px;
+    /* height: 50%; */
+    /* margin-left: 90px; */
     display: flex;
     display: flex;
   justify-content: center; 
   align-items: center; 
   background-color: rgb(34, 34, 34);
+  border-radius: 2%;
    
 }
 #pannel
 {
-    width: 717px;
-    height: 18px;
+    /* width: 717px; */
+    width: 70%;
+    /* height: 18px; */
+    height: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -33,47 +41,60 @@ a:hover
     border-radius: 10%;
 }
 #links{
-    margin-left: 100px;
-    width: 107px;
-    height: 17px;
+    /* margin-left: 100px; */
+    position: relative;
+    left: 5%;
+    width: 10%;
+    height: 40%;
     display: flex;
     justify-content: space-between;
 }
 #second-part
 {
+    /* position: relative;   */
+
     display: flex;
+    /* width: fit-content; */
+    /* height: 100%; */
 }
 #bio-outerbox
 {
-    margin-left: 180px;
-    margin-top: 20px;
-    height: 247px;
-    width: 538px;
+    /* margin-left: 70%; */
+    position: relative;
+    /* margin-top: 20px; */
+    left: 8%;
+    height: 50%;
+    width: 40%;
    
 }
 #bio-innerbox
 {
-width: 538px;
-height: 154px;
+/* width: 538px; */
+width: 50%;
+/* height: 154px; */
+height:20% ;
 
 }
 #nameplate{
     color: white    ;
   display: flex;
   justify-content: left;
-    width: 426px;
-    height: 72px;
+    width: 90%;
+    height: 50%;
 }
 #desc
 {
     color: grey;
-    width: 492px;
-    height: 72px;
+    width: 90%;
+    height: 70%;
 }
 #bio-outerbox button
 {
-    width: 307px;
+    position: relative;
+    top: 20px;
+    width: 50%;
     height: 63px;
+/* height: 30%; */
    background-color: rgb(98, 186, 27);
 }
 #myphoto
@@ -84,6 +105,8 @@ height: 154px;
 }
 #myphoto img
 {
+    position: relative;
+
     width: 350px;
     height: 350px;
     border-radius: 50%;
